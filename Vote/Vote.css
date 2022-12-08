@@ -1,130 +1,35 @@
 @charset "UTF-8";
 
-body {
-	font-family: source-sans-pro;
-	background-color: #f2f2f2;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	font-style: normal;
-	font-weight: 200;
-}
+	img {
+    position: relative;
+    opacity: 0.8;
+    width: 100%;
+	}
 
-header {
-	width: 100%;
-	height: 5%;
-	background-color: #52bad5;
-	border-bottom: 1px solid #2C9AB7;
-}
-
-.hero_header {
-	color: #FFFFFF;
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	letter-spacing: 4px;
-}
-
-/* Hero Section */
-.hero {
-	background-color: #B3B3B3;
-	padding-top: 150px;
-	padding-bottom: 150px;
-}
-
-
-.tagline {
-	text-align: center;
-	color: #FFFFFF;
-	margin-top: 4px;
-	font-weight: lighter;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}
-
-.text_column {
-	width: 29%;
-	align: center;
-	text-align: center;
-	font-weight: lighter;
-	line-height: 25px;
-	color: #A3A3A3;
+	p {
 	position: absolute;
-	left: 600px;
-}
-.about {
-	background-color: #FFFFFF;
-	margin-top: 0px;
-	align: center;
-}
-
-.button {
-	width: 200px;
-	margin-top: 20px;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	padding-top: 20px;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-bottom: 20px;
-	text-align: center;
-	vertical-align: middle;
-	border-radius: 0px;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 2px;
-	border: 3px solid black;
-	color: black;
-	transition: all 0.3s linear;
+    display: inline;
+	top: 10px;
+	left: 20px;
+	}
+	
+	select {
 	position: absolute;
-	left: 742px;
-}
-
-.button:hover {
-	background-color: #FEFEFE;
-	color: #C4C4C4;
-	cursor: pointer;
-}
-
-/* Mobile */
-@media (max-width: 320px) {
-.logo {
-	width: 100%;
-	text-align: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-}
-
-.container header nav {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	float: none;
-	display: none;
-}
-
-.text_column {
-	width: 100%;
-	text-align: justify;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-
-.thumbnail {
-	width: 100%;
-}
-
-.footer_column {
-	width: 100%;
-	margin-top: 0px;
-}
+    display: inline;
+	top: 60px;
+	left: 20px;
+	}
+	
+	label {
+	position: absolute;
+    display: inline;
+	top: 60px;
+	left: 20px;
+	}
+	
+	div {
+	position: absolute;
+    display: inline;
+	top: 80px;
+	left: 20px;
+	}
